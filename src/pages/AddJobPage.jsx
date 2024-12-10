@@ -2,11 +2,11 @@ import React from 'react'
 import { useState } from 'react'
 
 const AddJobPage = () => {
-  const [title, setTitle] = useState('')
+  const [title, setTitle] = useState('Full-Time')
   const [type, setType] = useState('')
   const [location, setLocation] = useState('')
   const [description, setDescription] = useState('')
-  const [salary, setSalary] = useState('')
+  const [salary, setSalary] = useState('Under $50K')
   const [companyName, setCompanyName] = useState('')
   const [companyDescription, setcompanyDescription] = useState('')
   const [contactEmail, setContactEmail] = useState('')
