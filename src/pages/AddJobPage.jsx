@@ -32,6 +32,7 @@ const AddJobPage = ({ addJobSubmit }) => {
     }
 
     addJobSubmit(newJob)
+    window.alert('New job added!')
     return navigate('/jobs');
   }
 
